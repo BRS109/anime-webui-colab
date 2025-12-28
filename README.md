@@ -202,7 +202,7 @@ Automatically downloads when selecting ControlNet models
 
 [7thla]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/7th_layer.ipynb
 [8528d]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/8528-diffusion.ipynb
-[anima]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animagine-xl.ipynb
+[anima]: https://colab.research.google.com/github/BRS109/anime-webui-colab/blob/main/notebooks/animagine-xl.ipynb
 [anime]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animeinourworld.ipynb
 [anymx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
 [anyv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v3.ipynb
