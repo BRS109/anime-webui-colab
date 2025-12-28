@@ -89,8 +89,8 @@ def install_webui(option):
 
   version_dictionary = {
     'stable':     f'-b v1.4.0 https://github.com/anime-webui-colab/stable-diffusion-webui',
-    'latest':      'https://github.com/AUTOMATIC1111/stable-diffusion-webui',
-    'latest-dev':  '-b dev https://github.com/AUTOMATIC1111/stable-diffusion-webui',
+    'latest':      'https://github.com/w-e-w/stable-diffusion-webui',
+    'latest-dev':  '-b dev https://github.com/w-e-w/stable-diffusion-webui',
     'ui-redesign': 'https://github.com/anapnoe/stable-diffusion-webui-ux',
   }
 
@@ -157,7 +157,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'https://github.com/space-nuko/sd-webui-session-organizer {f}/session-organizer',
       f'https://github.com/ilian6806/stable-diffusion-webui-state {f}/state',
       f'https://github.com/DominikDoom/a1111-sd-webui-tagcomplete {f}/tagcomplete',
-      f'https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer {f}/tokenizer',
+      f'https://github.com/w-e-w/stable-diffusion-webui-tokenizer {f}/tokenizer',
       f'https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 {f}/tiled-multidiffusion-upscaler',
       # wait why? because the upstream is optimized for their colab, this is the one i refuse to update
       f'-b 23.02.27 https://github.com/anime-webui-colab/ext-tunnels {f}/tunnels',
@@ -542,4 +542,5 @@ notices = [
 ]
 
 for notice in notices:
+
   print(notice)
